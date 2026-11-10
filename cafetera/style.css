@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* color: #8f4444; */
+    color: #f1f1f1;
+    background-color:#b9674c;
+}
+
+body{
+    background-color: #191919;
+}
+
+p{
+    color: #f1f1f1;
+}
+
+.medidas{
+    margin-top: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    font-size: 25px;
+}
+
+.btnsBebidas{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.btnsBebidas button {
+    height: 35px;
+    width: 130px;
+}
+
+
+.botonRellenar{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botonRellenar button{
+    height: 35px;
+    width: 130px;
+}
+
+
+.lista{
+    color: #f1f1f1;
+    margin-top: 150px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.lista ul {
+    list-style: none;
+    padding-left: 0;
+}
