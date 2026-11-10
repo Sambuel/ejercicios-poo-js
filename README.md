@@ -16,8 +16,3 @@ Una cafetera que prepara americano o espresso. Quien la usa solo llama a `prepar
 - Clase con métodos privados (`#`) para los pasos internos
 - Recetas guardadas en un objeto y consultadas con `this.recetas[tipo]`
 - Lógica separada del DOM: la clase devuelve los mensajes y el DOM solo los muestra
-
-## Otros proyectos
-
-- [Banco POO](https://github.com/Sambuel/banco-poo-js): simulador de cuenta bancaria con clases y DOM
-- [Blackjack](https://github.com/Sambuel/blackjack-js): juego de Blackjack con JavaScript vanilla
