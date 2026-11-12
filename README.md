@@ -9,7 +9,7 @@ Ejercicios prácticos de Programación Orientada a Objetos en JavaScript vanilla
 | Garage | Herencia | Próximamente |
 | Nómina | Polimorfismo | Próximamente |
 
-## Cafetera ☕
+## Cafetera 
 
 Una cafetera que prepara americano o espresso. Quien la usa solo llama a `prepararCafe(tipo)` y la clase se encarga por dentro de revisar ingredientes, calentar el agua, moler el café y servir.
 
@@ -17,7 +17,7 @@ Una cafetera que prepara americano o espresso. Quien la usa solo llama a `prepar
 - Recetas guardadas en un objeto y consultadas con `this.recetas[tipo]`
 - Lógica separada del DOM: la clase devuelve los mensajes y el DOM solo los muestra
 
-## Login 🔐
+## Login 
 
 Un login con usuario y contraseña que se bloquea después de 3 intentos fallidos, y deja cambiar la contraseña una vez que entras.
 
