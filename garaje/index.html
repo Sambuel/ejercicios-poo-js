@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="app.js"></script>
+    <script src="app.js" defer></script>
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/887/887184.png" type="image/x-icon">
     <title>Garaje</title>
 </head>
 <body>
@@ -13,6 +14,37 @@
         <h1>Mi Garaje</h1>
     </header>
 
+    <main>
+        <section class="agregarVehiculo">
+            <h2>Agregar vehículo</h2>
+            <form id="formAgregar">
+                <select id="selectAgregar">
+                    <option value="auto">Auto</option>
+                    <option value="moto">Moto</option>
+                </select>
+                <input id="inputMarca" type="text" placeholder="Marca">
+                <input id="inputModelo"  type="text" placeholder="Modelo">
+                <input id="inputExtra" type="number" placeholder="Puertas / Cilindrada">
+                <button type="submit">Agregar</button>
+            </form>
+        </section>
 
+        <section class="controlarVehiculo">
+            <h2>Controlar vehículo</h2>
+            <select id="selectControlar"></select>
+
+            <button id="btnEncender" type="button">Encender</button>
+            <button id="btnApagar"  type="button">Apagar</button>
+            <button id="btnAccion"  type="button">Acción especial</button>
+        </section>
+
+
+        <section class="misVehiculos">
+            <h2>Mis vehículos</h2>
+            <ul id="listaVehiculos"></ul>
+        </section>
+
+        <p id="mensajeFinal"> </p>
+    </main>
 </body>
 </html>
