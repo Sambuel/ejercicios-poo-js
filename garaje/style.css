@@ -4,10 +4,16 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #0f172a;
+}
+
+
 h1{
     display: flex;
     justify-content: center;
     align-items: center;
+    color:#f3f4f6 ;
 }
 
 
@@ -17,5 +23,43 @@ h1{
     align-items: center;
     flex-direction: column;
     margin-top: 30px;
+    color: #f3f4f6;
+    background-color: #1e293b;
+    border-radius: 30px;
 }
 
+
+.controlarVehiculo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    color: #f3f4f6;
+    background-color: #1e293b;
+    border-radius: 20px;
+}
+
+
+.agregarVehiculo select,
+.agregarVehiculo input {
+    height: 30px;
+    padding: 0 8px;
+    font-size: 14px;
+    border: 1px solid #94a3b8;
+    border-radius: 4px;
+    vertical-align: middle;
+}
+
+.misVehiculos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f3f4f6;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+#mensajeFinal{
+    color: #f3f4f6;
+}
